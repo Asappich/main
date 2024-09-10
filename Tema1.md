@@ -29,18 +29,24 @@
 ## 1. Установка
 ### Установка среды разработки
 - python:
-![py](https://github.com/Asappich/main/blob/Tema1/pic/pyload.jpg)
-3. Настройка
+  ![py](https://github.com/Asappich/main/blob/Tema1/pic/pyload.jpg)
 
-4. Создание нового репозитория
+- в связи с текущей мировой ситуацией VS code отлично заменяет Pycharm. Установка VS code, расширений для python, первая программа:
+  ![Загрузка](https://github.com/Asappich/main/blob/Tema1/pic/VScodedolwload.jpg)
+  ![Расширения](https://github.com/Asappich/main/blob/Tema1/pic/VsCodePyAdd.jpg)
+  ![Хеллоу](https://github.com/Asappich/main/blob/Tema1/pic/vsCodeFirstProg.jpg)
 
-5. Подготовка файлов
+## 2. Настройка
 
-6. Фиксация изменений
+3. Создание нового репозитория
 
-7. Подключение к удаленному репозиторию
+4. Подготовка файлов
 
-8. Ветвление
+5. Фиксация изменений
+
+6. Подключение к удаленному репозиторию
+
+7. Ветвление
 
 9. Особенности применения «Фетч»
 
