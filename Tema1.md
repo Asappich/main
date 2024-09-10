@@ -27,9 +27,9 @@
 - к.э.н., доцент Панов М.А.
 
 ## 1. Установка
-    ### Установка среды разработки:
-     -python:
-         ![py](https://github.com/Asappich/main/blob/Tema1/pic/pyload.jpg])
+### Установка среды разработки
+- python:
+![py](https://github.com/Asappich/main/blob/Tema1/pic/pyload.jpg)
 3. Настройка
 
 4. Создание нового репозитория
