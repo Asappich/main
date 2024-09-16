@@ -250,7 +250,7 @@ year = 2024
 print(f'Сегодня {day} {month} {year} ', end = 'Всего хорошего!')
 ```
 ### Результат.
-![Задание5с](https://github.com/Asappich/main/blob/Tema2/pic/s5.jpg)
+![Задание5с](https://github.com/Asappich/main/blob/Tema2/pic/s5.1.jpg)
 ## Выводы
 В данном коде одна строкa с использованием функции `print()`:
 1. `day = 16
