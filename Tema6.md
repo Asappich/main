@@ -61,7 +61,7 @@ def dict_maker (**kwargs):
     my_dict.update(**kwargs)
 
 dict_maker(a1 = 1, a2 = 20, a3 = 54, a4 = 13)
-dict_maker(name = 'Ксения', age = 20, weight = 60, eyes_color = 'green')
+dict_maker(name = 'Denis', age = 24, weight = 70, eyes_color = 'green')
 pprint(my_dict)
 ```
 ![Меню](https://github.com/KseniaSokolenko/PI/blob/theme_6/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8/2.png)
@@ -91,10 +91,10 @@ print(list(result))
 def personal_info(name, age, company = 'unnamed'):
     print(f"Имя: {name} Возраст: {age} Компания: {company}")
 
-tom = ("Ксения", 20)
+tom = ("Denis", 24)
 personal_info(*tom)
 
-bob = ("Саша", 20, "Yandex")
+bob = ("Anna", 20, "Umarket")
 personal_info(*bob)
 ```
 ![Меню](https://github.com/KseniaSokolenko/PI/blob/theme_6/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8/4.png)
@@ -184,7 +184,7 @@ def count_repeating_numbers(sequence):
     for key, value in sorted(most_common_numbers, key = lambda x: x[0]):
         print('Число:', key , 'Встречается столько раз:', value)
 
-sequence = '122397576479'
+sequence = '122324356479'
 count_repeating_numbers(sequence)
 ```
 ![Меню](https://github.com/KseniaSokolenko/PI/blob/theme_6/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8/s3.png)
