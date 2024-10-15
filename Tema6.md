@@ -43,7 +43,6 @@ access = response.get('access')
 print(key, access)
 ```
 ![Меню](https://github.com/Asappich/main/blob/Tema6/pic/1.jpg)
-![Меню](https://github.com/KseniaSokolenko/PI/blob/theme_6/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8/1.2.png)
 
 ### Вывод: 
 Этот код запрашивает у пользователя номер кабинета и проверяет его наличие в словаре dictionary. Если ключ с указанным номером существует и имеет значение 'access': True, программа выводит этот ключ и сообщает о наличии доступа. Если ключа нет или его значение не равно 'access': True, программа выводит сообщение об отсутствии доступа.
@@ -64,7 +63,7 @@ dict_maker(a1 = 1, a2 = 20, a3 = 54, a4 = 13)
 dict_maker(name = 'Denis', age = 24, weight = 70, eyes_color = 'green')
 pprint(my_dict)
 ```
-![Меню](https://github.com/KseniaSokolenko/PI/blob/theme_6/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8/2.png)
+![Меню](https://github.com/Asappich/main/blob/Tema6/pic/2.jpg)
 
 ### Вывод: 
 
@@ -79,7 +78,7 @@ result = tuple(input_string)
 print(result)
 print(list(result))
 ```
-![Меню](https://github.com/KseniaSokolenko/PI/blob/theme_6/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8/3.png)
+![Меню](https://github.com/Asappich/main/blob/Tema6/pic/3.jpg)
 
 ### Вывод: 
 В этом коде создаётся кортеж из строки input_string, затем этот кортеж печатается сначала как кортеж, а потом как список. 
@@ -97,7 +96,7 @@ personal_info(*tom)
 bob = ("Anna", 20, "Umarket")
 personal_info(*bob)
 ```
-![Меню](https://github.com/KseniaSokolenko/PI/blob/theme_6/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8/4.png)
+![Меню](https://github.com/Asappich/main/blob/Tema6/pic/4.jpg)
 
 ### Вывод: 
 Функция personal_info принимает три аргумента: имя, возраст и название компании (последнее имеет значение по умолчанию). Она печатает информацию об имени, возрасте и компании. Далее создаются два кортежа: tom и bob. Каждый кортеж включает имя, возраст и название компании (для bob название компании задается явно). Затем эти кортежи передаются функции personal_info с использованием оператора распаковки *.
@@ -116,7 +115,7 @@ if __name__ == '__main__':
     print(tuple_sort((5, 5, 3, 1, 9)))
     print(tuple_sort((5, 5, 2.1, '1', 9)))
 ```
-![Меню](https://github.com/KseniaSokolenko/PI/blob/theme_6/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8/5.png)
+![Меню](https://github.com/Asappich/main/blob/Tema6/pic/5.jpg)
 
 ### Вывод: 
 Функция tuple_sort принимает кортеж и возвращает отсортированную версию этого кортежа. Перед сортировкой она проверяет, состоят ли элементы кортежа из чисел. Если это не так, функция возвращает исходный кортеж без изменений.
@@ -135,7 +134,7 @@ numbers_tuple = tuple(numbers_list)
 print("Список:", numbers_list)
 print("Кортеж:", numbers_tuple)
 ```
-![Меню](https://github.com/KseniaSokolenko/PI/blob/theme_6/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8/s1.png)
+![Меню](https://github.com/Asappich/main/blob/Tema6/pic/c1.jpg)
 
 ### Вывод: 
 Код принимает строку чисел, разделенных пробелами, преобразует их в список целых чисел, затем создает кортеж из этого списка и выводит оба результата на экран.
@@ -167,7 +166,7 @@ print(remover((1, 2, 3), 1))
 print(remover((1, 2, 3, 1, 2, 3, 4, 5, 2, 3, 4, 2, 4, 2), 3))
 print(remover((2, 4, 6, 6, 4, 2), 9))
 ```
-![Меню](https://github.com/KseniaSokolenko/PI/blob/theme_6/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8/s2.png)
+![Меню](https://github.com/Asappich/main/blob/Tema6/pic/c2.jpg)
 
 ### Вывод: 
 Функция remover принимает кортеж (tup) и элемент (elem), который нужно удалить из кортежа. Она использует метод index для поиска индекса элемента в кортеже. Если элемент найден, функция создает новый список на основе исходного кортежа, удаляет элемент с найденным индексом и возвращает новый кортеж. Если элемент не найден, функция возвращает исходный кортеж без изменений. Примеры работы этой функции демонстрируют её поведение при различных входных данных.
@@ -187,7 +186,7 @@ def count_repeating_numbers(sequence):
 sequence = '122324356479'
 count_repeating_numbers(sequence)
 ```
-![Меню](https://github.com/KseniaSokolenko/PI/blob/theme_6/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8/s3.png)
+![Меню](https://github.com/Asappich/main/blob/Tema6/pic/c3.jpg)
 
 ### Вывод: 
 Этот код считает количество повторяющихся чисел в строке и выводит три наиболее часто встречающиеся числа вместе с их количеством. Он использует модуль collections и функцию Counter, которая создает объект для подсчета количества вхождений каждого элемента в последовательности. Затем применяются методы most_common и sorted для получения списка трех наиболее часто встречающихся элементов вместе с их количеством.
@@ -222,7 +221,7 @@ print(cortesh((1, 2, 3), 8))
 print(cortesh((1, 8, 3, 4, 8, 8, 9, 2), 8))
 print(cortesh((1, 2, 8, 5, 1, 2, 9), 8))
 ```
-![Меню](https://github.com/KseniaSokolenko/PI/blob/theme_6/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8/s4.png)
+![Меню](https://github.com/Asappich/main/blob/Tema6/pic/c4.jpg)
 
 ### Вывод: 
 Функция cortesh принимает два аргумента: список incoming_list и число number. Она возвращает подмножество списка, начиная с первого появления числа number до последнего. Если число number отсутствует в списке, функция возвращает 0. Если число встречается только один раз, функция возвращает весь список после этого числа. Если число встречается несколько раз, функция возвращает часть списка от первого до последнего вхождения числа.
@@ -260,14 +259,9 @@ def main():
 if __name__ == "__main__":
     main()
 ```
-Тест 1:
-![Меню](https://github.com/KseniaSokolenko/PI/blob/theme_6/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8/s5.png)
 
-Тест 2:
-![Меню](https://github.com/KseniaSokolenko/PI/blob/theme_6/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8/s5.1.png)
+![Меню](https://github.com/Asappich/main/blob/Tema6/pic/c5.jpg)
 
-Тест 3:
-![Меню](https://github.com/KseniaSokolenko/PI/blob/theme_6/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8/s5.2.png)
 
 ### Вывод: 
 Функция list принимает список и сортирует числа по знаку, разделяя их на три подсписка: положительные, отрицательные и нулевые. Функция main читает пользовательский ввод, преобразует его в список целых чисел, формирует кортеж этого списка и выводит его на экран.
