@@ -42,7 +42,7 @@ key = response.get('key')
 access = response.get('access')
 print(key, access)
 ```
-![Меню](https://github.com/KseniaSokolenko/PI/blob/theme_6/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8/1.1.png)
+![Меню]([https://github.com/KseniaSokolenko/PI/blob/theme_6/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8/1.1.png](https://github.com/Asappich/main/blob/Tema6/pic/1.jpg))
 ![Меню](https://github.com/KseniaSokolenko/PI/blob/theme_6/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8/1.2.png)
 
 ### Вывод: 
