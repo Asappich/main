@@ -27,11 +27,10 @@
 Составьте текстовый файл и положите его в одну директорию с программой на Python. Текстовый файл должен состоять минимум из двух строк.
 ### Ответ (текст внутри файла):
 ```python
-"If you would have your son to walk honourably through the world, you must not attempt to clear the stones
-from his path, but teach him to walk firmly over them - not insist upon leading him by the hand, but let him
-learn to go alone."
-
-Anne Bronte, "The Tenant of Wildfell Hall"
+"Wait a minute, get it how you live it
+Ten toes in when we standin' on business.
+I'm a big stepper, underground methods
+Top-notch hoes get the most, not the lesser."
 ```
 ![Меню](https://github.com/Asappich/main/blob/Tema7/pic/z1.jpg)
 
