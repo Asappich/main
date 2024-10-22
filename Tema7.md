@@ -202,3 +202,153 @@ time.sleep(0.01)
 #### Файл «rows_300.csv» также есть в папке "коды"
 ### Вывод: 
 Этот код принимает номер кабинета от пользователя и проверяет его наличие в словаре dictionary. Если ключ существует и у него есть значение 'access': True, то программа выводит соответствующий ключ и доступ. В противном случае, она использует значение по ключу 'None' и выводит его.
+
+## Самостоятельная работа №1
+Найдите в интернете любую статью (объем статьи не менее 200 слов), скопируйте ее содержимое в файл и напишите программу, которая считает количество слов в текстовом файле и определит самое часто встречающееся слово. Результатом выполнения задачи будет: скриншот файла со статьей, листинг кода, и вывод в консоль, в котором будет указана вся необходимая информация.
+
+```python
+from collections import Counter
+with open('input.txt', 'r', encoding ='utf-8') as file:
+    text = file.read()
+words = text.split()
+word_count = len(words)
+word_freq = Counter(words)
+most_common_word, most_common_count = word_freq.most_common(1)[0]
+print(f'Количество слов: {word_count}')
+print(f'Самое частое слово: "{most_common_word}" (встречается {most_common_count} раз)')
+```
+### Результат.
+![image](https://github.com/Asappich/main/blob/Tema7/pic/s1.jpg)
+
+Использованный текст:
+Файл input.txt в папке pic.
+
+## Выводы
+Программа показывает общее количество слов и самое частое слово с его частотой.
+
+## Самостоятельная работа №2
+У вас появилась потребность в ведении книги расходов, посмотрев все существующие варианты вы пришли к выводу что вас ничего не устраивает и нужно все делать самому. Напишите программу для учета расходов. Программа должна позволять вводить информацию о расходах, сохранять ее в файл и выводить существующие данные в консоль. Ввод информации происходит через консоль. Результатом выполнения задачи будет: скриншот файла с учетом расходов, листинг кода, и вывод в консоль, с демонстрацией работоспособности программы.
+
+```python
+def add_expense():
+    description = input("Введите описание расходов: ")
+    amount = input("Введите сумму расходов: ")
+    with open('accounting.txt', 'a', encoding='utf-8') as file:
+        file.write(f'{description}: {amount}\n')
+def show_expenses():
+    print("Записи расходов:")
+    with open('accounting.txt', 'r', encoding='utf-8') as file:
+        for line in file:
+            print(line.strip())
+while True:
+    action = input("Введите 'добавить'(1) для добавления расхода или 'показать'(2) для вывода всех расходов: ").strip()
+    if action.lower() == '1':
+        add_expense()
+    elif action.lower() == '2':
+        show_expenses()
+    else:
+        print("Неверный ввод. Попробуйте снова.")
+```
+### Результат.
+![image](https://github.com/Asappich/main/blob/Tema7/pic/s2.jpg)
+
+## Выводы
+Программа позволяет добавлять и показывать записи расходов.
+
+## Самостоятельная работа №3
+Имеется файл input.txt с текстом на латинице. Напишите программу, которая выводит следующую статистику по тексту: количество букв латинского алфавита; число слов; число строк.
+•	Текст в файле: Beautiful is better than ugly. Explicit is better than implicit. Simple is better than complex.
+Complex is better than complicated.
+•	Ожидаемый результат: Input file contains:
+108 letters
+20 words
+4 lines
+
+```python
+def text_statistics(filename):
+    with open(filename, 'r', encoding='utf-8') as file:
+        text = file.read()
+    letters_count = sum(c.isalpha() for c in text)
+    words_count = len(text.split())
+    lines_count = text.count('\n') + 1
+    print(f"Input file contains:")
+    print(f"{letters_count} letters")
+    print(f"{words_count} words")
+    print(f"{lines_count} lines")
+text_statistics('input.txt')
+```
+### Результат.
+![image](https://github.com/Asappich/main/blob/Tema7/pic/s3.jpg)
+
+## Выводы
+Программа выводит количество букв, слов и строк из файла. 
+
+## Самостоятельная работа №4
+Напишите программу, которая получает на вход предложение, выводит его в терминал, заменяя все запрещенные слова звездочками * (количество звездочек равно количеству букв в слове). Запрещенные слова, разделенные символом пробела, хранятся в текстовом файле input.txt. Все слова в этом файле записаны в нижнем регистре. Программа должна заменить запрещенные слова, где бы они ни встречались, даже в середине другого слова. Замена производится независимо от регистра: если файл input.txt содержит запрещенное слово exam, то слова exam, Exam, ExaM, EXAM и exAm должны быть заменены на ****.
+•	Запрещенные слова:
+hello email python the exam wor is
+•	Предложение для проверки:
+Hello, world! Python IS the programming language of thE future. My EMAIL is ksusha.katkova2468@yandex.ru
+PYTHON is awesome!!!!
+•	Ожидаемый результат:
+*****, ***ld! ****** ** *** programming language of *** future. My
+***** ** ksusha.katkova2468@yandex.ru
+****** ** awesome!!!!
+
+```python
+import re
+def censor_text(input_text, banned_words):
+    for word in banned_words:
+        input_text = re.sub(word, '*' * len(word), input_text, flags=re.IGNORECASE)
+    return input_text
+with open('input.txt', 'r', encoding='utf-8') as file:
+    banned_words = file.read().strip().split()
+sentence = input("Введите предложение для проверки: ")
+censored_sentence = censor_text(sentence, banned_words)
+print(censored_sentence)
+```
+### Результат.
+![image](https://github.com/Asappich/main/blob/Tema7/pic/s4.jpg)
+
+## Выводы
+Программа заменяет запрещенные слова в вводимом предложении на звездочки.
+
+## Самостоятельная работа №5
+Самостоятельно придумайте и решите задачу, которая будет взаимодействовать с текстовым файлом.
+Подсчет строк в файле и вывод их на экран.
+
+```python
+def print_lines(filename):
+    with open(filename, 'r', encoding='utf-8') as file:
+        for line_num, line in enumerate(file, 1):
+            print(f"{line_num}: {line.strip()}")
+print_lines('input.txt')
+```
+### Результат.
+![image](https://github.com/Asappich/main/blob/Tema7/pic/s5.jpg)
+
+## Выводы
+Программа выводит строки файла с их номерами.
+
+## Общие выводы по теме
+
+1. Основные операции с файлами
+Были изучены методы для работы с файлами. Основные операции включают:
+- Чтение (read(), readline(), readlines()): позволяет загружать данные из файла в переменные для обработки.
+- Запись (write(), writelines()): позволяет сохранять данные в файл.
+- Открытие (open()): используется для открытие файла с заданными параметрами (режимы чтения, записи и т.д.).
+
+2. Режимы открытия файлов
+При открытии файлов необходимо указывать режим:
+- 'r' - чтение.
+- 'w' - запись.
+- 'a' - добавление строки.
+
+3. with
+Использование with при открытии файлов является хорошей практикой, так как:
+- Гарантирует, что файл будет закрыт автоматически после завершения блока, даже если возникло исключение.
+
+4. Работа с текстами
+Работа с текстовой информацией включает:
+- Учет кодировок (например, utf-8), что особенно важно при работе с данными на разных языках.
+- Обработка строк: методами strip(), split(), join() и другими, для манипуляций со строками.
