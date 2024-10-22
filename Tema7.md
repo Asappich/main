@@ -33,7 +33,7 @@ learn to go alone."
 
 Anne Bronte, "The Tenant of Wildfell Hall"
 ```
-![Меню](https://github.com/KseniaSokolenko/PI/blob/theme_7/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8/1.png)
+![Меню](https://github.com/Asappich/main/blob/Tema7/pic/z1.jpg)
 
 ### Вывод: 
 Этот код принимает номер кабинета от пользователя и проверяет его наличие в словаре dictionary. Если ключ существует и у него есть значение 'access': True, то программа выводит соответствующий ключ и доступ. В противном случае, она использует значение по ключу 'None' и выводит его.
@@ -46,7 +46,7 @@ f = open('input.txt', 'r')
 print(f.readline())
 f.close()
 ```
-![Меню](https://github.com/KseniaSokolenko/PI/blob/theme_7/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8/2.png)
+![Меню](https://github.com/Asappich/main/blob/Tema7/pic/z2.jpg)
 
 ### Вывод: 
 Этот код принимает номер кабинета от пользователя и проверяет его наличие в словаре dictionary. Если ключ существует и у него есть значение 'access': True, то программа выводит соответствующий ключ и доступ. В противном случае, она использует значение по ключу 'None' и выводит его.
@@ -59,7 +59,7 @@ f = open('input.txt', 'r')
 print(f.readlines())
 f.close()
 ```
-![Меню](https://github.com/KseniaSokolenko/PI/blob/theme_7/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8/3.png)
+![Меню](https://github.com/Asappich/main/blob/Tema7/pic/z3.jpg)
 
 ### Вывод: 
 Этот код принимает номер кабинета от пользователя и проверяет его наличие в словаре dictionary. Если ключ существует и у него есть значение 'access': True, то программа выводит соответствующий ключ и доступ. В противном случае, она использует значение по ключу 'None' и выводит его.
@@ -71,7 +71,7 @@ f.close()
 with open ('input.txt') as f:
     print(f.readlines())
 ```
-![Меню](https://github.com/KseniaSokolenko/PI/blob/theme_7/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8/4.png)
+![Меню](https://github.com/Asappich/main/blob/Tema7/pic/z4.jpg)
 
 ### Вывод: 
 Этот код принимает номер кабинета от пользователя и проверяет его наличие в словаре dictionary. Если ключ существует и у него есть значение 'access': True, то программа выводит соответствующий ключ и доступ. В противном случае, она использует значение по ключу 'None' и выводит его.
@@ -84,7 +84,7 @@ with open ('input.txt') as f:
     for line in f:
         print(line)
 ```
-![Меню](https://github.com/KseniaSokolenko/PI/blob/theme_7/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8/5.png)
+![Меню](https://github.com/Asappich/main/blob/Tema7/pic/z5.jpg)
 
 ### Вывод: 
 Этот код принимает номер кабинета от пользователя и проверяет его наличие в словаре dictionary. Если ключ существует и у него есть значение 'access': True, то программа выводит соответствующий ключ и доступ. В противном случае, она использует значение по ключу 'None' и выводит его.
@@ -100,8 +100,8 @@ with open('input.txt', 'r') as f:
     result = f.readlines()
     print(result)
 ```
-![Меню](https://github.com/KseniaSokolenko/PI/blob/theme_7/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8/6.1.png)
-![Меню](https://github.com/KseniaSokolenko/PI/blob/theme_7/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8/6.2.png)
+![Меню](https://github.com/Asappich/main/blob/Tema7/pic/z6.jpg)
+
 
 ### Вывод: 
 Этот код принимает номер кабинета от пользователя и проверяет его наличие в словаре dictionary. Если ключ существует и у него есть значение 'access': True, то программа выводит соответствующий ключ и доступ. В противном случае, она использует значение по ключу 'None' и выводит его.
@@ -116,8 +116,7 @@ with open('input.txt', 'w') as f:
         f.write('\nCycle run ' + line)
     print('Done!')
 ```
-![Меню](https://github.com/KseniaSokolenko/PI/blob/theme_7/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8/7.1.png)
-![Меню](https://github.com/KseniaSokolenko/PI/blob/theme_7/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8/7.2.png)
+![Меню](https://github.com/Asappich/main/blob/Tema7/pic/z7.jpg)
 
 ### Вывод: 
 Этот код принимает номер кабинета от пользователя и проверяет его наличие в словаре dictionary. Если ключ существует и у него есть значение 'access': True, то программа выводит соответствующий ключ и доступ. В противном случае, она использует значение по ключу 'None' и выводит его.
@@ -138,7 +137,7 @@ def print_docs(directory):
 
 print_docs('C:/Users/sokol/Pictures/Животные')
 ```
-![Меню](https://github.com/KseniaSokolenko/PI/blob/theme_7/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8/8.png)
+![Меню](https://github.com/Asappich/main/blob/Tema7/pic/z8.jpg)
 
 ### Вывод: 
 Этот код принимает номер кабинета от пользователя и проверяет его наличие в словаре dictionary. Если ключ существует и у него есть значение 'access': True, то программа выводит соответствующий ключ и доступ. В противном случае, она использует значение по ключу 'None' и выводит его.
@@ -174,7 +173,7 @@ def longestwords(file):
 
 print(longestwords('input.txt'))
 ```
-![Меню](https://github.com/KseniaSokolenko/PI/blob/theme_7/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8/9.png)
+![Меню](https://github.com/Asappich/main/blob/Tema7/pic/z9.jpg)
 
 ### Вывод: 
 Этот код принимает номер кабинета от пользователя и проверяет его наличие в словаре dictionary. Если ключ существует и у него есть значение 'access': True, то программа выводит соответствующий ключ и доступ. В противном случае, она использует значение по ключу 'None' и выводит его.
@@ -200,8 +199,7 @@ with open('rows_300.csv', 'w', encoding='utf-8', newline='') as f:
 
 time.sleep(0.01)
 ```
-![Меню](https://github.com/KseniaSokolenko/PI/blob/theme_7/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8/10.1.png)
-![Меню](https://github.com/KseniaSokolenko/PI/blob/theme_7/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8/10.2.png)
+![Меню](https://github.com/Asappich/main/blob/Tema7/pic/z10.jpg)
 #### Файл «rows_300.csv» также есть в папке "коды"
 ### Вывод: 
 Этот код принимает номер кабинета от пользователя и проверяет его наличие в словаре dictionary. Если ключ существует и у него есть значение 'access': True, то программа выводит соответствующий ключ и доступ. В противном случае, она использует значение по ключу 'None' и выводит его.
