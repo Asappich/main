@@ -134,7 +134,7 @@ def print_docs(directory):
     print(f'Файлы: {", ".join([file for file in catalog[2]])}')
     print('-' * 40)
 
-print_docs('C:/Users/sokol/Pictures/Животные')
+print_docs('C:/Users/Денис/Software_Engineering/Задание')
 ```
 ![Меню](https://github.com/Asappich/main/blob/Tema7/pic/z8.jpg)
 
